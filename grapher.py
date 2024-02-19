@@ -19,7 +19,7 @@ def function(x, string):
     string = string.replace("x", str(x))
     return eval(string)
     #return (0.5*x*x*x + 10*x*x + x)
-    #return x*5000000000 and 30/x 
+    #return x*5000000000 and 30/x hello
 
 def draw(funcs, drawing, zoom, zoomy, startPoint, endPoint):
     if (drawing == False):
